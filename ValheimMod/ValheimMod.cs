@@ -11,7 +11,7 @@ namespace ValheimMod
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
     //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
-    internal class JotunnModStub : BaseUnityPlugin
+    internal class ValheimMod : BaseUnityPlugin
     {
         public const string PluginGUID = "com.jotunn.valheimmod";
         public const string PluginName = "ValheimMod";
